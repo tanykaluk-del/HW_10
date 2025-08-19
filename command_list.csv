@@ -1,0 +1,39 @@
+    1  git config
+    2  git config set
+    3  help config
+    4  git config --global user.name "Tetiana"
+    5  git config --global user.email "tanykaluk@gmail.com"
+    6  cd Documents
+    7  ls
+    8  cd Myfolder
+    9  https://github.com/tanykaluk-del/HW_10.git
+   10  git clone https://github.com/tanykaluk-del/HW_10.git
+   11  cd HW_10
+   12  git status
+   13  clear
+   14  touch text_ignore.txt
+   15  git status
+   16  clear
+   17  nano .gitignore
+   18  git status
+   19  git add .
+   20  git commit
+   21  git status
+   22  git commit -m "comment"
+   23  clear
+   24  touch main_test.txt
+   25  git add .
+   26  git commit -m "comment1"
+   27  clear
+   28  git branch develop 
+   29  git checkout develop
+   30  touch develop_test.txt
+   31  git add .
+   32  git commit -m "comment 2"
+   33  nano develop_test.txt
+   34  git add .
+   35  git commit -m "comment 3"
+   36  git checkout main
+   37  git merge develop
+   38  git log
+   39  history > command_list.csv
